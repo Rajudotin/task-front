@@ -1,0 +1,23 @@
+/* @import "tailwindcss";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities"; */
+/* @import "tailwindcss/preflight"; */
+@tailwind utilities;
+/* @tailwind base;
+@tailwind utilities; */
+.button{
+  background-color: hsl(210, 100%, 50%);
+  color: white;
+}
+body {
+  @apply bg-gray-100 text-gray-800;
+}
+
+input, button {
+  @apply rounded-lg;
+}
+
+button:hover {
+  @apply bg-blue-600;
+}

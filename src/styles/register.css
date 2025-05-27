@@ -1,0 +1,64 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f7ede2;
+}
+
+.register-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #6d597a;
+}
+
+.register-form {
+  background-color: #f5cac3;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.register-input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #b5838d;
+  border-radius: 4px;
+  background-color: #ffe5d9;
+}
+
+.terms {
+  margin-bottom: 1rem;
+}
+
+.register-button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #e5989b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.register-button:hover {
+  background-color: #b5838d;
+}
+
+.social-register {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #b5838d;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.google { background-color: #e5989b; color: #fff; }
+.facebook { background-color: #b5838d; color: #fff; }
+.twitter { background-color: #6d597a; color: #fff; }

@@ -1,0 +1,99 @@
+/* Progress.css using the new color palette for the entire project */
+
+body {
+  background-color: #F4F1DE;
+  font-family: 'Roboto', sans-serif;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.bg-yellow-100 {
+  background-color: #F7B267;
+}
+
+.bg-white {
+  background-color: #FAF3DD;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.shadow-lg {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.space-y-4 > * + * {
+  margin-top: 1rem;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.space-y-2 > * + * {
+  margin-top: 0.5rem;
+}
+
+input[type="checkbox"] {
+  width: 1rem;
+  height: 1rem;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #FF7F11;
+}
+
+input[type="checkbox"]:hover {
+  background-color: #FFB703;
+}
+
+input[type="text"], input[type="password"] {
+  background-color: #FFD166;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #E07A5F;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  outline: none;
+  border-color: #3D405B;
+}
