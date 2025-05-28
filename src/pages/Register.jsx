@@ -17,11 +17,14 @@ const Register = () => {
     }
 
     try {
-      const response = await axios.post("https://task-back.onrender.com/register", {
-
-        username: username,
-        password,
-      });
+      // const response = await axios.post("http://localhost:5000/register", {
+      const response = await axios.post(
+        "https://task-back-9zsx.onrender.com/",
+        {
+          username: username,
+          password,
+        }
+      );
       console.log(response.data);
       localStorage.setItem("username", username);
       localStorage.setItem("userId", response.data.userId); // store userId if returned
